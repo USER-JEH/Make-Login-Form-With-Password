@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hide / Show Password </title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	">
+</head>
+<body>
+	<div class="form-box">
+		<h1>Login Here</h1>
+		<div class="input-box">
+			<i class="ri ri-mail-line"></i>
+			<input type="email" placeholder="Email Id">
+		</div>
+		<div class="input-box">
+			<i class="ri ri-lock-line"></i>
+			<input type="password" placeholder="Password" id="myInput">
+		<span class="eye" onclick="myFunction()">
+			<i id="hide1" class="ri-eye-line"></i>
+			<i id="hide2"class="ri-eye-off-line"></i>
+		</span>
+		</div>
+		<button type="button" class="login-btn">LOGIN</button>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>
